@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Date Picker -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+    <!-- Find Button -->
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="Find" />
+
+    <!-- Minimum Temperature TextView -->
+    <TextView
+        android:id="@+id/minTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimum Temperature: "
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- Maximum Temperature TextView -->
+    <TextView
+        android:id="@+id/maxTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Temperature: "
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
